@@ -9,7 +9,8 @@ public class MyMin {
 
     public static void main(String[] argv) {
         Scanner sc = new Scanner(System.in);
-        int vysledek = sc.nextInt();
-        System.out.println("Nejmensi cislo ze vsech je: " + vysledek);
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        System.out.println("Nejmensi cislo ze vsech je: " + min(x,y));
     }
 }
